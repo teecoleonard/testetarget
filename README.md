@@ -1,46 +1,108 @@
-# Getting Started with Create React App
+# Target Sistemas - Teste Técnico
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto contém as soluções para os desafios técnicos propostos pela Target Sistemas, implementadas em React com TypeScript.
 
-## Available Scripts
+## Desafios Implementados
 
-In the project directory, you can run:
+1. **Cálculo de Soma**: Cálculo do valor final da variável SOMA
+2. **Verificador de Fibonacci**: Verifica se um número pertence à sequência de Fibonacci
+3. **Análise de Faturamento**: Cálculo de estatísticas de faturamento a partir de um arquivo JSON
+4. **Percentual por Estado**: Cálculo do percentual de representação de cada estado no faturamento total
+5. **Inversor de String**: Inverte os caracteres de uma string sem usar funções prontas
 
-### `npm start`
+## Como Executar o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pré-requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Antes de começar, você precisará ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (versão 14.x ou superior)
+- npm (normalmente vem com o Node.js) ou [Yarn](https://yarnpkg.com/)
 
-### `npm test`
+### Passos para Execução
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório**
 
-### `npm run build`
+```bash
+git clone https://github.com/seu-usuario/testetarget.git
+cd testetarget
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instale as dependências**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usando npm:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ou usando Yarn:
+```bash
+yarn install
+```
 
-### `npm run eject`
+3. **Execute a aplicação**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Usando npm:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ou usando Yarn:
+```bash
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. **Acesse a aplicação**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Abra seu navegador e acesse:
+```
+http://localhost:3000
+```
 
-## Learn More
+## Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+testetarget/
+├── public/
+├── src/
+│   ├── components/         # Componentes de cada desafio
+│   │   ├── common/         # Componentes compartilhados
+│   │   ├── SomaCalc.tsx    # Solução para o desafio 1
+│   │   ├── Fibonacci.tsx   # Solução para o desafio 2
+│   │   └── ...
+│   ├── styles/             # Estilos compartilhados
+│   ├── App.tsx             # Componente principal
+│   ├── dados.json          # Dados para análise de faturamento
+│   └── ...
+└── package.json
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Detalhes da Implementação
+
+- Cada desafio foi implementado como um componente React independente
+- O código-fonte de cada solução pode ser visualizado clicando no botão "Ver Código Fonte" na interface
+- As soluções são exibidas em uma única página para facilitar a avaliação
+- O projeto utiliza TypeScript para fornecer tipagem estática e melhor qualidade de código
+
+## Tecnologias Utilizadas
+
+- React 18
+- TypeScript
+- CSS-in-JS para estilização
+
+## Otimizações Implementadas
+
+- Componentização para reutilização de código
+- Estilos compartilhados para manter consistência visual
+- Tratamento de erros para melhor experiência do usuário
+
+## Executando os Testes
+
+Para executar os testes automatizados:
+
+```bash
+npm test
+```
+
+---
+
+Desenvolvido como parte do processo seletivo para a Target Sistemas.
