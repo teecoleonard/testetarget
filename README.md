@@ -11,7 +11,7 @@ Este projeto contém as soluções para os desafios técnicos propostos pela Tar
 
 1. **Cálculo de Soma**: Cálculo do valor final da variável SOMA
 2. **Verificador de Fibonacci**: Verifica se um número pertence à sequência de Fibonacci
-3. **Análise de Faturamento**: Cálculo de estatísticas de faturamento a partir de um arquivo JSON
+3. **Análise de Faturamento**: Cálculo de estatísticas de faturamento diário de uma distribuidora partir de um arquivo JSON
 4. **Percentual por Estado**: Cálculo do percentual de representação de cada estado no faturamento total
 5. **Inversor de String**: Inverte os caracteres de uma string sem usar funções prontas
 
