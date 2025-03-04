@@ -2,6 +2,11 @@
 
 Este projeto contém as soluções para os desafios técnicos propostos pela Target Sistemas, implementadas em React com TypeScript.
 
+## Fotos de como o projeto e no computador
+
+![image](https://github.com/user-attachments/assets/4e77a044-31bc-4cda-9d70-3c82db551072)
+
+
 ## Desafios Implementados
 
 1. **Cálculo de Soma**: Cálculo do valor final da variável SOMA
